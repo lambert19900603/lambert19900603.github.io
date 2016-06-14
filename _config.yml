@@ -1,7 +1,7 @@
 # Site settings
 title: Lambert's
 SEOTitle: Lambert's Blog
-header-img: img/33857908_p0.jpg
+header-img: img/bg-1.jpg
 email: lambert19900603@gmail.com
 description: "鲍凌波 @lambert 的博客 ｜ 伪前端爱好者 ｜ 伪健身爱好者 ｜ 伪动漫宅 ｜ 伪高达爱好者 ｜ 伪银行从业者。"
 keyword: "鲍凌波, Lambert, Blog, 博客, 个人网站"
@@ -70,7 +70,7 @@ kramdown:
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "一个一心要过小资生活的屌丝青年"
-# sidebar-avatar: /img/avatar-lambert.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/avatar.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
