@@ -872,14 +872,14 @@ img::-moz-selection {
     margin-right: 5px;
   }
 }
-#tag-heading {
+/*#tag-heading {
   padding: 70px 0 60px;
 }
 @media only screen and (min-width: 768px) {
   #tag-heading {
     padding: 55px 0;
   }
-}
+}*/
 #tag_cloud {
   margin: 20px 0 15px 0;
 }

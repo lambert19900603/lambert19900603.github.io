@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Lambert's Blog
 
 ### [View Live @ github pages &rarr;](http://lambert19900603.github.io) 
