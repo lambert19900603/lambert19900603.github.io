@@ -1,20 +1,27 @@
 # Site settings
 title: Lambert's
 SEOTitle: Lambert's Blog
-header-img: img/bg-1.jpg
+header-img: 'img/bg-1.jpg'
+author: Lambert Bao
 email: lambert19900603@gmail.com
 description: "鲍凌波 @lambert 的博客 ｜ 伪前端爱好者 ｜ 伪健身爱好者 ｜ 伪动漫宅 ｜ 伪高达爱好者 ｜ 伪银行从业者。"
 keyword: "鲍凌波, Lambert, Blog, 博客, 个人网站"
-url: "lambert19900603@github.io"              # your host, for absolute URL
-baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+url: lambert19900603@github.io              # your host, for absolute URL
+baseurl: ''                             # for example, '/blog' if your blog hosted on 'host/blog'
 
+
+# Rake settings
+default_header_img: 'img/bg-1.jpg'
+post_path: _posts
+layout_path: _layouts
+post_ext: md
 
 
 # SNS settings
 RSS: false
-weibo_username:     lambert19900603
-zhihu_username:     lambert19900603
-github_username:    lambert19900603
+weibo_username: lambert19900603
+zhihu_username: lambert19900603
+github_username: lambert19900603
 # twitter_username:  
 # facebook_username:  
 # linkedin_username:  firstname-lastname-idxxxx
