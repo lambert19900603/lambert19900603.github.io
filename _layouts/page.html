@@ -3,7 +3,7 @@ layout: default
 ---
 
 <!-- Page Header -->
-<header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
+<header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header_img %}{{ page.header_img }}{% else %}{{ site.header_img }}{% endif %}')">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
@@ -33,16 +33,16 @@ layout: default
                 sidebar-container">
 
                 <!-- Featured Tags -->
-                {% if site.featured-tags %}
+                {% if site.featured_tags %}
                 <section>
                     <!-- no hr -->
                     <h5><a href="{{'/tags/' | prepend: site.baseurl }}">FEATURED TAGS</a></h5>
                     <div class="tags">
         				{% for tag in site.tags %}
-                            {% if tag[1].size > {{site.featured-condition-size}} %}
-                				<a href="{{ site.baseurl }}/tags/#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">
-                                    {{ tag[0] }}
-                                </a>
+                            {% if tag[1].size > {{site.featured_condition_size}} %}
+            				<a href="{{ site.baseurl }}/tags/#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">
+                                {{ tag[0] }}
+                            </a>
                             {% endif %}
         				{% endfor %}
         			</div>
@@ -82,13 +82,13 @@ layout: default
                 sidebar-container
             ">
                 <!-- Featured Tags -->
-                {% if site.featured-tags %}
+                {% if site.featured_tags %}
                 <section>
                     <hr class="hidden-sm hidden-xs">
                     <h5><a href="{{'/tags/' | prepend: site.baseurl }}">FEATURED TAGS</a></h5>
                     <div class="tags">
                         {% for tag in site.tags %}
-                            {% if tag[1].size > {{site.featured-condition-size}} %}
+                            {% if tag[1].size > {{site.featured_condition_size}} %}
                                 <a href="{{ site.baseurl }}/tags/#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">
                                     {{ tag[0] }}
                                 </a>
@@ -102,11 +102,11 @@ layout: default
                 <section class="visible-md visible-lg">
                     <hr><h5><a href="{{'/about/' | prepend: site.baseurl }}">ABOUT ME</a></h5>
                     <div class="short-about">
-                        {% if site.sidebar-avatar %}
-                            <img src="{{site.sidebar-avatar}}" />
+                        {% if site.sidebar_avatar %}
+                            <img src="{{site.sidebar_avatar}}" />
                         {% endif %}
-                        {% if site.sidebar-about-description %}
-                            <p>{{site.sidebar-about-description}}</p>
+                        {% if site.sidebar_about_description %}
+                            <p>{{site.sidebar_about_description}}</p>
                         {% endif %}
                         <!-- SNS Link -->
                         <ul class="list-inline">

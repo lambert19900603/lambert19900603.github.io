@@ -75,6 +75,7 @@ task :post do
     post.puts "header_img: #{header_img}"
     post.puts "category: #{category}"
     post.puts "tags: #{tags}"
+    post.puts "\n"
     post.puts "---"
     # post.puts "{% include JB/setup %}"
   end
